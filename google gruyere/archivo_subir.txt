@@ -1,0 +1,9 @@
+<html>
+	<head>
+	ejemplo xss
+	</head>
+	<body>
+	<script>alert ("has sido hackeado")
+	</script>
+	</body>
+</html>
